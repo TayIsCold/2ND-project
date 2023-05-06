@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<style>
+    #my-menu .nav-link{
+        font-size:large;
+        font-family:Georgia;
+        font-weight:bold;
+        color:blue;
+    }
+    .bg-capt{
+        background-color:rgba(rgb(20, 11, 11))
+        padding:0;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a href="027_index.html" class="navbar-brand"><img src="Image/nav.jpg" alt="logo" width="50px" height="50px"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#my-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="my-menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item">Service 1</a></li>
+                            <li><a class="dropdown-item">Service 2</a></li>
+                            <li><a class="dropdown-item">Service 3</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+            
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Log In</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide" id="carousel-id">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-id" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="My Project/americano.webp" alt="" width="100%" height="400px">
+                <div class="carousel-caption">
+                    <h5>Slide 1</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="My Project/Burger.webp" alt="" width="100%" height="400px" >
+                <div class="carousel-caption">
+                    <h5>Slide 2</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="My Project/coca.jpg" alt="" width="100%" height="400px" >
+                <div class="carousel-caption">
+                    <h5>Slide 3</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="carousel-control-prev" data-bs-target="#carousel-id" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#carousel-id" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!--Card-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                <div class="card-header">
+                    Package 1
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Package 1</h4>
+                    <img src="Image/sus_man_elon_musk.webp" alt="" width="100%" height="250px">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem assumenda, quisquam delectus provident totam dicta numquam culpa, repellendus ullam quidem praesentium!</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button class="btn btn-primary btn-sm" type="button">Read More</button>
+                    <button class="btn btn-primary btn-sm" type="button">Read Less</button>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                <div class="card-header">
+                    Package 1
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Package 1</h3>
+                    <img src="Image/sus_man_elon_musk.webp" alt="" width="100%" height="250px">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem assumenda, quisquam delectus provident totam dicta numquam culpa, repellendus ullam quidem praesentium!</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button class="btn btn-primary btn-sm" type="button">Read More</button>
+                    <button class="btn btn-primary btn-sm" type="button">Read Less</button>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                <div class="card-header">
+                    Package 1
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Package 1</h3>
+                    <img src="Image/sus_man_elon_musk.webp" alt="" width="100%" height="250px">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem assumenda, quisquam delectus provident totam dicta numquam culpa, repellendus ullam quidem praesentium!</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button class="btn btn-primary btn-sm" type="button">Read More</button>
+                    <button class="btn btn-primary btn-sm" type="button">Read Less</button>
+                </div>
+                </div>
+            </div>
+        </div> 
+            </div>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img class="card-img-top" src="Image/sus_man_elon_musk.webp" alt="" width="100%" height="250px">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="card-link" href="#">Link here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img class="card-img-top" src="Image/sus_man_elon_musk.webp" alt="" width="100%" height="250px">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="card-link" href="#">Link here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <img class="card-img-top" src="Image/sus_man_elon_musk.webp" alt="" width="100%" height="250px">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="card-link" href="#">Link here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+</body>
+</html>
